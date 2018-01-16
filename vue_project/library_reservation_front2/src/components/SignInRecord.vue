@@ -35,7 +35,7 @@
   :page-sizes="[1,2,5,10]"
   :page-size="size"
   @current-change="changePage"
-  @size-change="changePage">
+  @size-change="changeSize">
 </el-pagination>
   </div>
 </template>
